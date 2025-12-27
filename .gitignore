@@ -8,3 +8,6 @@ __pycache__/
 
 # MacOS
 .DS_Store
+
+# PyCharm
+.idea/
