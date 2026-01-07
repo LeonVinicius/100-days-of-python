@@ -1,15 +1,25 @@
-# Modifying Global Scope
+# import another_var
+# print(another_var.another_thing)
 
-enemies = 1
+# from turtle import Turtle, Screen
+#
+# timmy = Turtle()
+# print(timmy)
+# timmy.shape("turtle")
+#
+# timmy.color("blue")
+# timmy.forward(100)
+#
+# my_screen = Screen()
+# print(my_screen.canvheight)
+# my_screen.exitonclick()
 
+from prettytable import PrettyTable
 
-def increase_enemies():
-    global enemies
-    enemies += 1
-    print(f"enemies inside function: {enemies}")
+table = PrettyTable()
 
+table.add_column("Pokemon",["Pikachu","Squirtle","Charmander"])
+table.add_column("Type", ["Electric","Water","Fire"])
+table.align = "c"
 
-increase_enemies()
-print(f"enemies outside function: {enemies}")
-
-
+print(table)
