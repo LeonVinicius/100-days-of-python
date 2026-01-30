@@ -37,6 +37,7 @@ class Snake:
             self.segments[seg_num].goto(new_x , new_y)
         self.head.forward(MOVE_DISTANCE)
         self.direction_locked = False
+        self.wrap_around()
 
     def up(self):
         if self.head.heading() != DOWN and not self.direction_locked:
