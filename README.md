@@ -38,6 +38,8 @@ Repositório dedicado ao acompanhamento do curso da Dra. Angela Yu. O objetivo �
 | 17 | Quiz Project | Criação de classes e métodos | [Ver Arquivos](./Day%2017) |
 | 18 | Hirst Painting | Turtle Graphics, Tuplas e RGB | [Ver Arquivos](./Day%2018) |
 | 19 | **Turtle Race** | **Instâncias, Estado e Higher Order Functions** | [**Ver Arquivos**](./Day%2019) |
+| 20 | **Snake Game (Part 1)** | **Animações com tracer(0), Listas de Objetos e Movimentação Sequencial** | [**Ver Arquivos**](./Day%2020) |
+| 21 | **Snake Game (Full)** | **Herança, Detecção de Colisão, Slicing de Listas e Screen Wrap-around** | [**Ver Arquivos**](./Day%2021) |
 
 ---
 
